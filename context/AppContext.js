@@ -9,7 +9,6 @@ export const AppProvider = ({ children }) => {
   };
 
   const [globalState, setGlobalState] = useState(initalState);
-
   const setOnboardingCompleted = async (value = true) => {
     setGlobalState((prev) => ({
       ...prev,
